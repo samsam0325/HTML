@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.container div.box1 {
+  background-color: rgb(220, 33, 20);
+}
+div.container div.box2 {
+  background-color: rgb(255, 204, 127);
+}
+div.container div.box3 {
+  background-color: rgb(255, 246, 127);
+}
+
+h1 {
+  color: darkcyan;
+  text-align: center;
+  background-color: goldenrod;
+}
+
+h3 {
+  color: rgb(10, 199, 199);
+  text-align: center;
+  background-color: rgb(93, 226, 15);
+}
+
+p.pokemon {
+  color: darkmagenta;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid rgb(5, 29, 136);
+  border-spacing: 0;
+}
+
+th {
+  color: black;
+  background-color: burlywood;
+}/*# sourceMappingURL=style.css.map */
