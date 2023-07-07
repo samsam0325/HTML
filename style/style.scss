@@ -6,20 +6,35 @@
 }
 div.container{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+div.title{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    div.box1 {
+    height: 0px;
+}
+html,
+body{
+    height: 100%;
+}
+div{
+    height: 20px;
+    &.box1 {
         background-color: rgb(220, 33, 20);
     }
-    div.box2 {
+    &.box2 {
         background-color: rgb(255, 204, 127);
     }
-    div.box3 {
+    &.box3 {
         background-color: rgb(255, 246, 127);
     }
 }
+
 h1
 {
     color: darkcyan;
